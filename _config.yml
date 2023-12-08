@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: Jon Gruener
+title: My Website
 
 # Your name to show in the footer
-author: Jonathon Gruener
+author: Some Person
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -32,7 +32,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "https://media.licdn.com/dms/image/C5603AQEnCDqllhW-jA/profile-displayphoto-shrink_200_200/0/1626972047403?e=1707350400&v=beta&t=ipa6AZFAOgXjI3GfjmN28-QOe1X_omR2YmuSJhTVYUo"
+avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -50,16 +50,16 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "jonathon14gruener@gmail.com"
-  # rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  # facebook: deanattali
-  github: jgruener6
-  # twitter: daattali
-  # patreon: DeanAttali
-  # youtube: c/daattali
+  email: "someone@example.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  facebook: deanattali
+  github: daattali
+  twitter: daattali
+  patreon: DeanAttali
+  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
- linkedin: jonathon-gruener
+#  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -82,7 +82,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-# rss-description: This website is a virtual proof that I'm awesome
+rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
@@ -97,7 +97,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-# url-pretty: "MyWebsite.com"
+url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -109,10 +109,10 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-# post_search: true
+post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-# edit_page_button: true
+edit_page_button: true
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -252,7 +252,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Denver"
+timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -294,4 +294,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
