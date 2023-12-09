@@ -20,11 +20,10 @@ author: Jonathon Gruener
 ###############################################
 
 navbar-links:
-  Home: ""
-  About Me: "aboutme"
+  Home: "index"
   Portfolio:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - CSCI 5922 Final Project: "https://beautifuljekyll.com"
+    - Senior Design Project: "https://www.colorado.edu/mechanical/team-21-small-scale-robotic-surgery-and-lesion-targeting-system"
   Resume: "resume"
   
 
