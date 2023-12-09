@@ -25,6 +25,7 @@ navbar-links:
   Portfolio:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
+  Resume: "resume"
   
 
 ################
