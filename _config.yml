@@ -22,7 +22,12 @@ author: Jonathon Gruener
 navbar-links:
   Home: "index"
   Portfolio:
-    - CSCI 5922 Final Project: "https://beautifuljekyll.com"
+    - CSCI 5922 Final Project:
+      - Introduction: ""
+      - Data and Prep: ""
+      - Analysis: ""
+      - Results: ""
+      - Conclusions: ""
     - Senior Design Project: "https://www.colorado.edu/mechanical/team-21-small-scale-robotic-surgery-and-lesion-targeting-system"
   Resume: "resume"
   
