@@ -21,13 +21,14 @@ author: Jonathon Gruener
 
 navbar-links:
   Home: "index"
+  
+  CSCI 5922 Final Project:
+    - Introduction: "intro"
+    - Data and Prep: "data"
+    - Analysis: "analysis"
+    - Results: "results"
+    - Conclusions: "conclusion"
   Portfolio:
-    - CSCI 5922 Final Project:
-      - Introduction: "intro"
-      - Data and Prep: "data"
-      - Analysis: "analysis"
-      - Results: "results"
-      - Conclusions: "conclusion"
     - Senior Design Project: "https://www.colorado.edu/mechanical/team-21-small-scale-robotic-surgery-and-lesion-targeting-system"
   Resume: "resume"
   
