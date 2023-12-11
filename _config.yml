@@ -23,9 +23,10 @@ navbar-links:
   Home: "index"
   
   CSCI 5922 Final Project:
+    - Home: "home"
     - Introduction: "intro"
     - Data and Prep: "data"
-    - Analysis: "analysis"
+    - Model/Methods: "analysis"
     - Results: "results"
     - Conclusions: "conclusion"
   Portfolio:

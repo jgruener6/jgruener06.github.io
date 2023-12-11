@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resume
+title: Data Processing
 use-site-title: true
 ---
 In reinforcement learning, data gathering is done by the agent interacting with its environment. In this case that is done by Mario interacting with Level 1-2 in Super Mario Bros. The data gathering is continuously done as the agent collects experiences. The agent collects experiences by recording a snapshot of the interaction between the action taken by Mario, the resulting state of the game, and the reward obtained. 
