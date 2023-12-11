@@ -1,6 +1,16 @@
 ---
 layout: page
-title: Resume
+title: Conclusion
 use-site-title: true
 ---
- WIP
+ 
+ The goal of this project was to train a Reinforcement Learning agent to play Mario. It took in no background data, and had to learn for itself how to play the game. My model succeeded in this, and was even able to play other levels of Mario that it had not been trained on. While the performance of the model likely could have been improved using more time put into training, I think the results are still spectacular. 
+
+ This model was definitely bottlenecked by lack of experience. Certainly, it could have been made more effective through careful coding by researchers who are more familiar with these techniques. Additionally, hyperparamater tuning could have been used to tune the paramaters of the model prior to training. Finally, the computer that this was ran only only has an RTX 2060. According to [Nvidia](https://developer.nvidia.com/cuda-gpus), this graphics card has a compute power of 7.5. On a test bench created for machine learning, the training speed could have been drastically improved.
+
+ A model as simple as mine was able to be trained accurately and precisely less than a week. The Dota 2 model from OpenAI, while it experienced 45,000 years of game time, was trained in only 10 real life months. As models become more complex and goals become more lofty, it is likely that training time will increase as well. But in the context of training a human to become proficent or attain mastery at these tasks, those training times will seem insignificant. A professional Dota 2 player has likely played the game for a decade, and yet still lost to a model that was trained in 10 months. The opportunities in fields like healthcare are striking. Personalized medicine treatments that take doctors decades of experience to create, could be manufactured years or less of training a reinforcement learning model.
+
+ I was inspired to do this project based on a YouTube video I was fascinated by in high school. It was a video created by Seth Bling titled [*MarI/O - Machine Learning for Video Games*](https://www.youtube.com/watch?v=qv6UVOQ0F44). It was published in 2015, and uses a neural network to play Mario. However, this uses a NeuroEvolution of Augmentating Topologies (NEAT) method to train its network. Based on the video it seems like at its peak, the network has less than 50 neurons. With all of the advancements in Neural Network research, I wanted to try a modernized approach at beating a Mario level.
+
+ While the results of this project are not far reaching or deeply impactful to society, the project shows how far reinforcement learning and other neural network techniques have come. They are able to, from scratch, learn how to navigate and make choices in a ever-evolving environment. These advances have had wide reaching implications outside of the video game world. In 2018, [a group of researchers](https://www.nature.com/articles/nature25978) based a model of computing pharmaceutical drug molecules on the approach taken by the AlphaGo team. Hopefully, in the future, researchers will continue to take advantage of reinforcement learning models that excel and transform them into life-changing results.
+

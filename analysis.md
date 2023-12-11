@@ -13,7 +13,7 @@ Lets break that down:
 
 Q values are state-action pairs. It represents the expected future rewards that an agent can get by taking that specific action in the given state. Consider the following example (adapted from <a href="https://towardsdatascience.com/reinforcement-learning-explained-visually-part-4-q-learning-step-by-step-b65efb731d3e">TowardDataScience</a>)
 
-<img src = "https://miro.medium.com/v2/resize:fit:484/format:webp/1*dPUsXxEpd2dmXfZlJSwKDw.png"></img>
+<img src = "https://miro.medium.com/v2/resize:fit:484/format:webp/1*dPUsXxEpd2dmXfZlJSwKDw.png">
 
 In this example, an agent starts in the start square of a 3x3 grid and hopes to reach the goal destination. Some of the squares provide no reward, while the danger and goal squares provide a reward of -10 and +5, respectively. Since the player can move into 9 squares, using four actions, a Q-table is made of 9 rows and 4 columns.
 
@@ -26,7 +26,7 @@ $Q(s,a)$ is the current estimate of the Q value for taking action $a$ in state $
 
 Q-Networks solve a problem that arises when using a table. For many real world scenarios, constructing a table of every possible action and state is near impossible. So, we use a Deep Q Network to model a Q-function that will map state and action pairs. Below is an example of the flow of a Deep Q Network each time step.
 
-<img src = "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*ibWj_Ym7JWhz551PrHTUkA.png"></img>
+<img src = "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*ibWj_Ym7JWhz551PrHTUkA.png">
 
 An important note is that the Experience Replay is needed to ensure the improvement of a network. Since neural networks generally perfrom best on a batch of random samples, the Experience Replay function provides that diversity n the training data.
 
@@ -41,7 +41,7 @@ where there are two different Q values chosen by two different networks.
 ### Dueling Double Deep Q Network
 
 A Dueling Double Deep Q Network (D3QN) is an extension of the Double Deep Q Network. A D3QN implements a dueling architecture, as noted by the name. A dueling architecture separates the estimation function and the value function. This is done by creating a Value Function, which represents the expected cumulative future rewards of being in a particular state, regardless of action taken. There is also an Advantage function, which represents the difference between the expected cumulative future rewards for taking an action and the value of the state. It captures the beneffit of taking a particular action in the given state. This is used in the D3QN to find the final Q value. Shown below is an example architecture of a D3QN.
-<a href = "https://towardsdatascience.com/dueling-double-deep-q-learning-using-tensorflow-2-x-7bbbcec06a2a"><img src = "https://miro.medium.com/v2/resize:fit:640/format:webp/1*n8UyR2HxQPudoBbZ6z4MjA.png"></img></a>
+<a href = "https://towardsdatascience.com/dueling-double-deep-q-learning-using-tensorflow-2-x-7bbbcec06a2a"><img src = "https://miro.medium.com/v2/resize:fit:640/format:webp/1*n8UyR2HxQPudoBbZ6z4MjA.png"></a>
 
 ## Method
 
