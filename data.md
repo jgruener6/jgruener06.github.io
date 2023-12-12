@@ -35,6 +35,19 @@ def wrap_nes(env_id, action_space):
     return env
 
 ```
-Breaking this wrapper down, the line `gym.make(env_id)` builds the base Gym environment for the specified Mario level. `JoypadSpace` wrapper modifies the action space of the environment. This was done to decrease the actions available to the agent and to prevent the agent from taking actions that do not result in an action. The `MaxAndSkipEnv` wrapper modifies the environment to repeat the same action for 4 frames. This helps the agent be patient and not try inputting multiple times during a long action where Mario cannot do anything, like being in the air during a jump. The `FireResetEnv` simulates pressing the "Fire" button at the start of each episode, which is required in most NES games. The `FrameDownSample` wrapper is applied to downsample the resolution of the game frame. This helps with computational load as well as helping the model itself. Since we don't need every pixel in the game frame, it is alright to downsample. The `ScaledFloatFrame` scales the pixel values to floating point values between 0 and 1. Finally, the `CustomReward` wrapper allows the model to use a custom reward. The gym environment often has its own reward functions, but a custom reward function was made to fit the Mario environment. 
+Breaking this wrapper down, the line `gym.make(env_id)` builds the base Gym environment for the specified Mario level. `JoypadSpace` wrapper modifies the action space of the environment. This was done to decrease the actions available to the agent and to prevent the agent from taking actions that do not result in an action. The `MaxAndSkipEnv` wrapper modifies the environment to repeat the same action for 4 frames. This helps the agent be patient and not try inputting multiple times during a long action where Mario cannot do anything, like being in the air during a jump. The `FireResetEnv` simulates pressing the "Fire" button at the start of each episode, which is required in most NES games. The `FrameDownSample` wrapper is applied to downsample the resolution of the game frame. This helps with computational load as well as helping the model itself. Since we don't need every pixel in the game frame, it is alright to downsample. The `ScaledFloatFrame` scales the pixel values to floating point values between 0 and 1. Finally, the `CustomReward` wrapper allows the model to use a custom reward. The gym environment often has its own reward functions, but a custom reward function was made to fit the Mario environment.
 
-Using these wrappers, the frames from the Mario game were effectively processed before the game even started. This allowed the game to run smoothly and the agent to optimally interact with the environment.
+Using these wrappers, the frames from the Mario game were effectively processed before the game even started. This allowed the game to run smoothly and the agent to optimally interact with the environment.Shown below are the results of the wrappers.
+
+![Normal Mario Frame](assets/img/mario_normal.png) 
+
+*A normal frame of Mario*
+
+![Downsampled Mario](assets/img/mario_down.png)
+
+*A frame of Mario after downsampling*
+
+![Final Mario frame](assets/img/mario_lazy.png)
+
+*A frame of Mario after all wrappers have been applied*
+
