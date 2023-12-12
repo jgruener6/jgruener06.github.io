@@ -28,9 +28,9 @@ use-site-title: true
 
 *A graph of rewards over 100 episodes for an untrained model*
 
- After training this model, I wanted to see how it would fair on other Super Mario Bros. levels. Shown below is a highlight reel of this model playing various levels from Super Mario Bros.
+ <!-- After training this model, I wanted to see how it would fair on other Super Mario Bros. levels. Shown below is a highlight reel of this model playing various levels from Super Mario Bros.
 
  ## this goes here
 
-All the code for this model is located at **link**. Additionally, the saved best model is included within the Github Repository.
+All the code for this model is located at **link**. Additionally, the saved best model is included within the Github Repository. -->
 
