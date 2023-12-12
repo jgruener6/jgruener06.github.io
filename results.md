@@ -9,10 +9,11 @@ use-site-title: true
  At the start of training this model, the Mario agent did a poor job of passing the level. It would often jump into enemies and not progress very far. Shown below is a clip of the Mario agent at the start of training.
 
 <video width="320" height="240" controls>
-  <source src="assets/vd/mario_bad.mp4" type="video/mp4">
+  <source src="/assets/vd/mario_bad.mp4" type="video/mp4">
 </video>
  
- 
+ <iframe src="https://www.youtube-nocookie.com/embed/sP_VB9OFJP0?start=45" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
  After training my model for 4433 episodes, taking around 100 hours, my model has exceeded my expectations. It is able to reliably progress through the level, sometimes even reaching the flag. It has some trouble after entering the green pipe at the end of the level, but I attribute that to the level layout changing and likely some changes with Mario's position in the backend. Shown below is one of the best runs. 
 
  ## run goes here
