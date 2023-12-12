@@ -16,7 +16,10 @@ use-site-title: true
 
  After training my model for 4433 episodes, taking around 100 hours, my model has exceeded my expectations. It is able to reliably progress through the level, sometimes even reaching the flag. It has some trouble after entering the green pipe at the end of the level, but I attribute that to the level layout changing and likely some changes with Mario's position in the backend. Shown below is one of the best runs. 
 
- ## run goes here
+<video width="320" height="240" controls>
+  <source src="/assets/vd/mario_good1.mp4" type="video/mp4">
+</video>
+ 
 
  This run took xxx seconds, which when compared to the Speedrun leaderboards, would place me at xxx place.
  As predicted, the model continuously progressed and improved its scores. Shown below is a graph of Total Rewards over time. Unfortunately, the graph does not cover all 4433 episodes of training, since I had to manually stop the training since it began taking so long and was not going to reach the final goal of 50000 episodes.
