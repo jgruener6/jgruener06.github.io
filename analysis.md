@@ -45,7 +45,7 @@ where there are two different Q values chosen by two different networks.
 ### Dueling Double Deep Q Network
 
 A Dueling Double Deep Q Network (D3QN) is an extension of the Double Deep Q Network. A D3QN implements a dueling architecture, as noted by the name. A dueling architecture separates the estimation function and the value function. This is done by creating a Value Function, which represents the expected cumulative future rewards of being in a particular state, regardless of action taken. There is also an Advantage function, which represents the difference between the expected cumulative future rewards for taking an action and the value of the state. It captures the beneffit of taking a particular action in the given state. This is used in the D3QN to find the final Q value. Shown below is an example architecture of a D3QN.
-<a href = "https://towardsdatascience.com/dueling-double-deep-q-learning-using-tensorflow-2-x-7bbbcec06a2a"><img src = "https://miro.medium.com/v2/resize:fit:640/format:webp/1*n8UyR2HxQPudoBbZ6z4MjA.png"></a>
+<a href = "https://towardsdatascience.com/dueling-double-deep-q-learning-using-tensorflow-2-x-7bbbcec06a2a">![nnimage](/assets/img/nnimage.png)</a>
 
 *Architecture of a Dueling Double Deep Q Network*
 
