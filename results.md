@@ -21,7 +21,6 @@ use-site-title: true
 </video>
  
 
- This run took xxx seconds, which when compared to the Speedrun leaderboards, would place me at xxx place.
  As predicted, the model continuously progressed and improved its scores. Shown below is a graph of Total Rewards over time. Unfortunately, the graph does not cover all 4433 episodes of training, since I had to manually stop the training since it began taking so long and was not going to reach the final goal of 50000 episodes.
 
 ![training of 100 episodes](assets/img/reward_graph.png)
